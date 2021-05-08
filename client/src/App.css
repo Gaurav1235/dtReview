@@ -1,0 +1,112 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.product-list{
+  list-style-type:none;
+}
+.name{
+  font-weight: 500;
+}
+.name-txt{
+  margin-left: 20px;
+}
+.description{
+  font-weight: 500;
+  margin-left: 20px;
+}
+.des-txt{
+  margin-left: 20px;
+}
+.searchInput{
+  margin-top: 30px;
+  
+}
+.product-name{
+  margin-left:10px;
+}
+.search-btn{
+  margin-bottom: 30px;
+  border: blue;
+}
+.submit-btn{
+  background: #61dafb;
+  margin-bottom: 30px;
+}
+.delete{
+  margin-left: 20px;
+}
+input{
+  width: 360px;
+  background: rgb(70, 226, 218);
+  color: #111418;
+  font: inherit;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 5px 0px 0px 5px;
+  border: 0;
+  outline: 0;
+  padding: 22px 18px;
+  transition: 0.5s ease all;
+  margin-top: 20px;
+  margin-left:20%;
+  margin-bottom: 10px;
+}
+label{
+  color: #999; 
+  font-size: 15px;
+  font-weight: normal;
+  position: absolute;
+  pointer-events: none;
+  
+  margin-left:20%;
+  
+  transition: 0.5s ease all; 
+}
+button{
+  margin-left:20%;
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
